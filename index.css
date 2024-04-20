@@ -119,6 +119,9 @@ h6 {
    line-height: 120%;
    margin: 0; 
 }
+p {
+   opacity: 0.9;
+}
 
 .paragraph-large {
    font-size: 20px;
@@ -219,7 +222,7 @@ h6 {
 }
 .bkg-black {
    background-color: black;
-   color: white;
+   color: #fafafa;
 }
 
 .text-color-red {
@@ -452,7 +455,7 @@ h6 {
  }
  
  @keyframes slide {
-   from {overflow-x;: .4} 
+   from {overflow-x: .4} 
    to {opacity: 1}
  }
  
